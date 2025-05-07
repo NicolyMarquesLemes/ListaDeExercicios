@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    text-align: center;
+    color: rgb(255, 235, 251);
+    background-color: pink;
+    padding: 1%;
+
+}
+
+body{
+    background-color: rgb(255, 237, 240);
+    
+}
+
+#hellu{
+    justify-content: flex-end;
+    text-align: right;
+}
+
+#HELLOKITTY{
+    width: 10%;
+}
+
+#d1{
+    margin: 10% 10%;
+    background-color: rgb(255, 203, 211);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 3% 2%;
+    border-radius: 10px;
+}
+
+#T1{
+    color: rgb(248, 106, 130);
+}
+
+a{
+    color: rgb(0, 0, 0);
+}
+
+#hecollitty{
+    width: 9%;
+    float: right;
+}
+
+#d2{
+    margin: 10% 10%;
+    background-color: rgb(255, 203, 211);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 3% 2%;
+    border-radius: 10px;
+}
+
+#T2{
+    color: rgb(248, 106, 130);
+}
+
+#d3{
+    margin: 10% 10%;
+    background-color: rgb(255, 203, 211);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 3% 2%;
+    border-radius: 10px;
+}
+
+#T3{
+    color: rgb(248, 106, 130);
+}
