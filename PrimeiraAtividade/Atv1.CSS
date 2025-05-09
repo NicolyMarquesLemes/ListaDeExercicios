@@ -25,3 +25,27 @@ a{
 #KEROPPI{
     width: 10%;
 }
+
+form{
+    text-align: center;
+    background-color: rgba(49, 236, 49, 0.479);
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 0%;
+    padding-bottom: 3%;
+    border-radius: 10px;
+}
+
+h1{
+    color: green;
+}
+
+input[type="number"] {
+    padding: 10px; 
+    font-size: 1rem; 
+    border-radius: 10px; 
+    border: none; 
+    outline: none;
+  }
+
