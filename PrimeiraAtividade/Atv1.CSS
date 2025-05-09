@@ -10,7 +10,8 @@ header{
 }
 
 body{
-    background-color: rgb(151, 247, 151);
+    background-image: url(ChatGPT\ Image\ 9\ de\ mai.\ de\ 2025\,\ 16_45_59.png);
+    background-size: cover;
 }
 
 a{
@@ -24,11 +25,12 @@ a{
 
 #KEROPPI{
     width: 10%;
+    margin-top: 10%;
 }
 
 form{
     text-align: center;
-    background-color: rgba(49, 236, 49, 0.479);
+    background-color: rgba(36, 189, 36, 0.822);
     margin-top: 10%;
     margin-left: 20%;
     margin-right: 20%;
@@ -38,7 +40,12 @@ form{
 }
 
 h1{
-    color: green;
+    color: rgb(171, 252, 171);
+
+}
+
+p{
+    color: antiquewhite;
 }
 
 input[type="number"] {
@@ -48,4 +55,10 @@ input[type="number"] {
     border: none; 
     outline: none;
   }
+
+  h2{
+    color: aliceblue;
+  }
+
+
 

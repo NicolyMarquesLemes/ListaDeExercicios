@@ -3,7 +3,7 @@ const rsp = document.querySelector("h2");
 
 frm.addEventListener("submit", (e) => {
     e.preventDefault();
-    const n = Number(frm.inNumero.value);
+    const n = Number(frm.numero.value);
     if(n % 2 == 0){
         rsp.innerText = `O número ${n} é Par`;
     }else{
