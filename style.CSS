@@ -72,3 +72,29 @@ a{
 #T3{
     color: rgb(248, 106, 130);
 }
+
+#d4{
+    margin: 10% 10%;
+    background-color: rgb(255, 203, 211);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 3% 2%;
+    border-radius: 10px;
+}
+
+#T4{
+    color: rgb(248, 106, 130);
+}
+
+#d5{
+    margin: 10% 10%;
+    background-color: rgb(255, 203, 211);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 3% 2%;
+    border-radius: 10px;
+}
+
+#T5{
+    color: rgb(248, 106, 130);
+}

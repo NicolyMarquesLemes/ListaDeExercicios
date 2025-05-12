@@ -5,32 +5,45 @@
 
 header{
     text-align: center;
-    background-color: rgb(41, 189, 28);
+    background-color: rgb(22, 21, 22);
     padding: 1%;
 }
 
 body{
-    background-image: url(ChatGPT\ Image\ 9\ de\ mai.\ de\ 2025\,\ 16_45_59.png);
+    background-image: url(d728cf2c-e7f6-4a32-ac26-799cd6d49497.png);
     background-size: cover;
+
+}
+
+p{
+    color: rgb(119, 119, 119);
 }
 
 a{
-    color: rgb(208, 255, 208);
+    color: rgb(146, 146, 146);
 }
 
-#Keroppi{
+h1{
+    color: rgb(155, 154, 155);
+}
+
+label{
+    color: aliceblue;
+}
+
+#Chococat{
     justify-content: flex-end;
     text-align: right;
 }
 
-#KEROPPI{
+#CHOCOCAT {
     width: 10%;
-    margin-top: 10%;
-}            
+    margin-top: 10%;                                         
+}
 
 form{
     text-align: center;
-    background-color: rgba(36, 189, 36, 0.822);
+    background-color: rgba(0, 0, 0, 0.774);
     margin-top: 10%;
     margin-left: 20%;
     margin-right: 20%;
@@ -39,26 +52,11 @@ form{
     border-radius: 10px;
 }
 
-h1{
-    color: rgb(171, 252, 171);
-
-}
-
-p{
-    color: antiquewhite;
-}
-
 input[type="number"] {
-    padding: 10px; 
+    padding: 5px; 
     font-size: 1rem; 
     border-radius: 10px; 
     border: none; 
     outline: none;
+    margin: 1%;
   }
-
-  h2{
-    color: aliceblue;
-  }
-
-
-
