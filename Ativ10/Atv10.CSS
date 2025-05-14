@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(158, 190, 255);
+    padding: 1%;
+}
+
+body{
+    background-image: url(2d0721df-d41f-4ab3-b204-52bee04f0ab7.png);
+    background-size: cover;
+
+}
+
+p{
+    color: #000000;
+}
+
+a{
+    color: rgb(255, 196, 246);
+}
+
+h1{
+    color: rgb(132, 200, 255);
+}
+
+#Little{
+    justify-content: flex-end;
+    text-align: right;
+}
+
+#LITTLE{
+    width: 10%;
+    margin-top: 10%;                                         
+}
+
+form{
+    text-align: center;
+    background-color: rgba(255, 163, 240, 0.774);
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 0%;
+    padding-bottom: 3%;
+    border-radius: 10px;
+}
+
+input[type="number"] {
+    padding: 5px; 
+    font-size: 1rem; 
+    border-radius: 10px; 
+    border: none; 
+    outline: none;
+    margin: 1%;
+  }
