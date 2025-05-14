@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(255, 239, 133);
+    padding: 1%;
+}
+
+body{
+    background-image: url(71123a25-b330-4ca8-8ba5-5507643f6774.png);
+    background-size: cover;
+
+}
+
+label{
+    color: white;
+}
+
+a{
+    color: rgb(105, 133, 188);
+}
+
+h1{
+    color: rgb(255, 239, 133, 0.774);
+}
+
+#Tuxedo{
+    justify-content: flex-end;
+    text-align: right;
+}
+
+#SAM{
+    width: 10%;
+    margin-top: 10%;                                         
+}
+
+form{
+    text-align: center;
+    background-color: rgba(63, 111, 150, 0.753);
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 0%;
+    padding-bottom: 3%;
+    border-radius: 10px;
+}
+
+input{
+    margin: 1%;
+    font-size: large;
+    border: none;
+    padding: 1%;
+    border-radius: 10px;
+}

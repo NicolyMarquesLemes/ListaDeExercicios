@@ -10,8 +10,8 @@ function contar() {
       const qtdLetras = letrasSomente.length;
 
       const resultado = `
-        <p>📝 Palavras: <strong>${qtdPalavras}</strong></p>
-        <p>🔤 Letras (sem espaços ou símbolos): <strong>${qtdLetras}</strong></p>
+        <p>Palavras: <strong>${qtdPalavras}</strong></p>
+        <p>Letras (sem espaços ou símbolos): <strong>${qtdLetras}</strong></p>
       `;
 
       document.getElementById("resultado").innerHTML = resultado;

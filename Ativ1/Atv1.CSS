@@ -45,7 +45,7 @@ h1{
 }
 
 p{
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
 }
 
 input[type="number"] {
