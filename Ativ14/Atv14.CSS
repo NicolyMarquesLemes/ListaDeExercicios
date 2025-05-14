@@ -5,12 +5,12 @@
 
 header{
     text-align: center;
-    background-color: rgb(22, 21, 22);
+    background-color: rgb(70, 70, 70);
     padding: 1%;
 }
 
 body{
-    background-image: url(d728cf2c-e7f6-4a32-ac26-799cd6d49497.png);
+    background-image: url(f56db282-d100-4449-94a2-fb54a0f98872.png);
     background-size: cover;
 
 }
@@ -24,7 +24,7 @@ p{
 }
 
 a{
-    color: rgb(146, 146, 146);
+    color: rgb(190, 190, 190);
 }
 
 h1{
@@ -47,7 +47,7 @@ label{
 
 #sorteio{
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.774);
+    background-color: rgba(52, 52, 52, 0.774);
     margin-top: 10%;
     margin-left: 20%;
     margin-right: 20%;

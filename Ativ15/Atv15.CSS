@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(255, 244, 146);
+    padding: 1%;
+}
+
+body{
+    background-image: url(b94bc515-fbe6-4637-885e-8dae29de2f0e.png);
+    background-size: cover;
+
+}
+
+p{
+    color: #000000;
+}
+
+a{
+    color: rgb(255, 252, 227);
+}
+
+h1{
+    color: rgb(255, 252, 222);
+}
+
+#Pompompurin{
+    justify-content: flex-end;
+    text-align: right;
+}
+
+#POMPOMPURIN {
+    width: 10%;
+    margin-top: 10%;                                         
+}
+
+#votos{
+    text-align: center;
+    background-color: rgba(255, 243, 137, 0.774);
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 0%;
+    padding-bottom: 3%;
+    border-radius: 10px;
+}
+
+input[type="number"] {
+    padding: 5px; 
+    font-size: 1rem; 
+    border-radius: 10px; 
+    border: none; 
+    outline: none;
+    margin: 1%;
+  }
+
+  button{
+    cursor: pointer;
+    margin: 1%;
+    font-size: large;
+    border: none;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+  .barra{
+    border-radius: 10px;
+}
