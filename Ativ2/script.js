@@ -27,7 +27,7 @@ document.getElementById('form-contagem').addEventListener('submit', function(e) 
           contagem += `${i} > `;
         }
       }
-      contagem += '*Final*';
+      contagem += 'Finalizado';
 
       resultadoDiv.innerHTML = `<p><strong>Contando:</strong><br>${contagem}</p>`;
     });

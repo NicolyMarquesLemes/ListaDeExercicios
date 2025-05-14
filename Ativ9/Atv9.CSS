@@ -41,22 +41,56 @@ label{
     margin-top: 10%;                                         
 }
 
-form{
+#semaforo{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 2% 0%;
+    background-color: rgba(255, 255, 255, 0.692);
+    border-radius: 10px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.733);
-    margin-top: 10%;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-top: 0%;
-    padding-bottom: 3%;
+    margin-top: 1%;
+}
+
+input{
+    margin: 1%;
+    font-size: large;
+    border: none;
+    padding: 1%;
     border-radius: 10px;
 }
 
-input[type="number"] {
-    padding: 5px; 
-    font-size: 1rem; 
-    border-radius: 10px; 
-    border: none; 
-    outline: none;
-    margin: 1%;
-  }
+  .semaforo {
+      width: 100px;
+      background-color: #333;
+      padding: 20px;
+      border-radius: 20px;
+      margin: 0 auto 30px;
+    }
+
+    .luz {
+      width: 60px;
+      height: 60px;
+      margin: 15px auto;
+      border-radius: 50%;
+      background-color: #111;
+      transition: background-color 0.3s;
+    }
+
+    .vermelho.ativo {
+      background-color: red;
+    }
+
+    .amarelo.ativo {
+      background-color: yellow;
+    }
+
+    .verde.ativo {
+      background-color: green;
+    }
+
+     button {
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }

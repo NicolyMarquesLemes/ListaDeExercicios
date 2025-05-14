@@ -15,8 +15,12 @@ body{
 
 }
 
+div{
+    color: rgb(255, 255, 255);
+}
+
 p{
-    color: rgb(119, 119, 119);
+    color: rgb(255, 255, 255);
 }
 
 a{

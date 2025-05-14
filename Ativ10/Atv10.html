@@ -10,17 +10,28 @@
 </head>
 <body>
 
+    <div>
+    <form id="form-conversao">
     <header>
     <h3><a href="/index.html">Voltar para a primeira página</a></h3>
     </header>
-
-    <form>
+    
     <h1>Conversor de Temperatura</h1>
-    <p>Digite um grau de temperatura</p><input type="palavr" id="palavra" required> <br>
-    <input type="submit"id="botao" value="Avaliar">
-    <h2></h2>
+    <label for="celsius">Temperatura em Celsius (°C):</label><br>
+    <input type="number" id="celsius" required><br><br>
+
+    <label for="unidade">Converter para:</label><br>
+        <select id="unidade" required>
+            <option value="fahrenheit">Fahrenheit (°F)</option>
+            <option value="kelvin">Kelvin (K)</option>
+        </select><br><br>
+        <button type="submit">Converter</button>
+        <div id="resultado"></div>
     </form>
 
+    
+
+    </div>
     <div id="Little">
        <img id="LITTLE" src="little-twin-stars-865816.png" alt="LITTLE"> 
     </div>

@@ -14,13 +14,19 @@
     <h3><a href="/index.html">Voltar para a primeira página</a></h3>
     </header>
 
-<form>
-<h1>Lista de Compras</h1>
-<p>Digite um item</p><input type="number" id="numero" required> <br>
-<input type="submit"id="botao" value="Avaliar">
-<h2></h2>
-</form>
+    <div>
+  <form id="form-lista">
+            <label for="item">Adicionar item:</label><br>
+            <input type="text" id="item" placeholder="Ex: Leite, Pão..." required>
+            <button type="submit">Adicionar</button>
+            <ul id="lista-compras"></ul>
+            <div id="botoes">
+            <button onclick="limparLista()">Limpar Lista</button>
+            </div>
+   </form>
 
+    </div>
+    
     <div id="Badtz">
        <img id="BADTZ" src="Badtz_Maru.webp" alt="BADTZ"> 
     </div>

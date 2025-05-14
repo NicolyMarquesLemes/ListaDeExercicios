@@ -9,16 +9,23 @@
 
 </head>
 <body>
-
+     
     <header>
     <h3><a href="/index.html">Voltar para a primeira página</a></h3>
     </header>
 
-    <form>
+    <div id="semaforo">
     <h1>Simulador de Semáforo</h1>
-    <input type="submit"id="botao" value="Avaliar">
-    <h2></h2>
-    </form>
+    <div class="semaforo">
+    <div class="luz vermelho" id="luz-vermelha"></div>
+    <div class="luz amarelo" id="luz-amarela"></div>
+    <div class="luz verde" id="luz-verde"></div>
+    </div>
+
+    <button onclick="mudarLuz('vermelho')">Vermelho</button>
+    <button onclick="mudarLuz('amarelo')">Amarelo</button>
+    <button onclick="mudarLuz('verde')">Verde</button>
+    </div>
 
     <div id="Cinnamoroll">
        <img id="CINNAMOROLL" src="cinnamoroll.png" alt="CINNAMOROLL"> 

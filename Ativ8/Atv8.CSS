@@ -10,7 +10,7 @@ header{
 }
 
 body{
-    background-image: url(5c4cd487-3e9d-49c4-a7b6-1d3178aa1c02.png);
+    background-image: url(71123a25-b330-4ca8-8ba5-5507643f6774.png);
     background-size: cover;
 
 }
@@ -48,11 +48,10 @@ form{
     border-radius: 10px;
 }
 
-input[type="number"] {
-    padding: 5px; 
-    font-size: 1rem; 
-    border-radius: 10px; 
-    border: none; 
-    outline: none;
+input{
     margin: 1%;
-  }
+    font-size: large;
+    border: none;
+    padding: 1%;
+    border-radius: 10px;
+}
