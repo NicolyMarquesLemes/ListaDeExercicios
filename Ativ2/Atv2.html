@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade 2</title>
     <link rel="stylesheet" href="Atv2.CSS">
-    <script src="script.js" defer></script>
+    <script src="/script.js" defer></script>
 
 
 </head>
@@ -17,12 +17,16 @@
 
     <form>
         <h1>Contador de Passos</h1>
-    <input type="number" id="numero" placeholder="Número inicial" required> <br>
-    <input type="number" id="numero" placeholder="Número final" required> <br>
-    <input type="number" id="numero" placeholder="Número de passos" required> <br>
-    <input type="submit"id="botao"  value="Avaliar">
-    <h2></h2>
-    </form>
+     <div id="exer2">
+        <form id="form-contagem">
+            <input type="number" id="inicio" placeholder="Número inicial" required><br><br>
+            <input type="number" id="fim" placeholder="Número final" required><br><br>
+            <input type="number" id="passo" placeholder="Número de passos" required><br><br>
+    
+            <button type="submit">Contar</button>
+        </form>
+
+    <div id="resultado"></div>
     
     <div id="Kuromi">
        <img id="KUROMI" src="Kuromi.png" alt="KUROMI"> 
